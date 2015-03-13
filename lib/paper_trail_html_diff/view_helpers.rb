@@ -10,6 +10,7 @@ module PaperTrailHtmlDiff
     end
 
     def build_html(object)
+      return '<i>No changes!</i>'.html_safe if object.keys.empty?
       list_excluded_fields = clean_excluded_fields(object.keys)
       return '<i>All changes filtered</i>'.html_safe if list_excluded_fields.empty?
       list_excluded_fields.inject("") do |acum, key|
