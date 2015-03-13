@@ -63,7 +63,7 @@ module PaperTrailHtmlDiff
       if config_attribute.to_sym == :changeset
         object.send(config_attribute)
       else
-        YAML.load(object.send(config_attribute))
+        YAML.load(object.send(config_attribute).to_yaml)
       end
     end
 
