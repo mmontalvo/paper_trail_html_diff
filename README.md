@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/mmontalvo/paper_trail_html_diff.svg)](https://travis-ci.org/mmontalvo/paper_trail_html_diff)
+[![Dependency Status](https://gemnasium.com/mmontalvo/paper_trail_html_diff.svg)](https://gemnasium.com/mmontalvo/paper_trail_html_diff)
+[![Code Climate](https://codeclimate.com/github/mmontalvo/paper_trail_html_diff/badges/gpa.svg)](https://codeclimate.com/github/mmontalvo/paper_trail_html_diff)
+
 # PaperTrailHtmlDiff
 
 Print Paper Trail changes in a nice format!
